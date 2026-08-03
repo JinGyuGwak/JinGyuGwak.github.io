@@ -11,12 +11,12 @@ const SITE = {
   availabilityText: "2027年2月より転職活動を開始予定です",
 
   /* ---- 헤더 ---- */
-  logo: "氏名",
+  logo: "portfolio",
 
   /* ---- 히어로 ---- */
   hero: {
     eyebrow: "Backend Engineer",
-    name: "氏名",
+    name: "クァクジンギュ",
     intro:
       "韓国にてバックエンドエンジニアとしてインターンおよび正社員として2年間の実務経験を積み、2026年2月より日本のSES企業にてエンジニアとして従事しております。堅実な設計と安定した運用を重視し、チームでの開発に取り組んでいます。",
   },
@@ -40,7 +40,7 @@ const SITE = {
       period: "2024.01 - 2026.01",
       tag: "Full-time / Korea",
       title: "バックエンドエンジニア（韓国・正社員 2年）",
-      desc: "2年間の実務で担当したプロダクトや業務範囲をここに記載します。",
+      desc: "2年間の実務で担当したプロダクトや業務範囲をここに記載します。"
     },
     {
       period: "2026.02 - 現在",
@@ -57,7 +57,7 @@ const SITE = {
       period: "2024.01 - 2024.06",
       summary:
         "プロジェクトの概要を一文で記載します。どのような課題を解決したかを簡潔に。",
-      stack: ["Java", "Spring Boot", "MySQL"],
+      stack: ["Java", "Spring Boot", "MySQL",],
       overview: "プロジェクトの背景・目的・チーム構成などをここに記載します。",
       role: "担当した役割や責任範囲をここに記載します。",
       highlights: [
@@ -95,19 +95,19 @@ const SITE = {
 
   /* ---- ブログ ---- */
   blog: [
-    { title: "記事タイトルをここに記載します", date: "2026.01", url: "#" },
-    { title: "記事タイトルをここに記載します", date: "2025.09", url: "#" },
-    { title: "記事タイトルをここに記載します", date: "2025.04", url: "#" },
+    { title: "私がサーバーのパフォーマンス向上のために使ったもの - ② ネットワークI/Oの最小化", url: "https://qiita.com/wlsrb2695/items/1008f26534dbf3048081" },
+    { title: "私がサーバーのパフォーマンス向上のために使ったもの - ① インデックス", url: "https://qiita.com/wlsrb2695/items/0fef621e4c1881372cca" },
+    { title: "MSA について感じたメリットとデメリット", url: "https://qiita.com/wlsrb2695/items/c51c4ee1e6da4bdb6407" },
   ],
 
   /* ---- お問い合わせ ---- */
   contact: {
     heading: "お問い合わせ",
     body: "ご興味をお持ちいただけましたら、下記よりお気軽にご連絡ください。",
-    email: "example@example.com",
+    email: "wlsrb2695@gmail.com",
     links: [
-      { label: "GitHub", url: "#" },
-      { label: "LinkedIn", url: "#" },
+      { label: "GitHub", url: "https://github.com/JinGyuGwak" },
+      { label: "Qiita", url: "https://qiita.com/wlsrb2695" }
     ],
     copyright: "© 2026",
   },
