@@ -82,7 +82,7 @@ const SITE = {
       period: "2024.01 - 2026.01",
       tag: "Full-time / Korea",
       title: "バックエンドエンジニア（韓国・正社員 2年）",
-      desc: "POS/セルフレジシステムにおいて、MSA構造のもと認証・機器管理・売上管理・QR決済システムなど複数ドメインサーバーの設計から運用まで一貫して担当。<br>バッチ処理の高度化（30秒→3秒）やQR決済システムの新規構築を主導しました。",
+      desc: "POS/セルフレジシステムにおいて、MSA構造のもと認証・機器管理・売上管理・QRコード注文システムなど複数ドメインサーバーの設計から運用まで一貫して担当。<br>バッチ処理の高度化（30秒→3秒）やQRコード注文システムの新規構築を主導しました。",
     },
     {
       period: "2026.02 - 現在",
@@ -95,11 +95,11 @@ const SITE = {
   /* ---- プロジェクト（카드 클릭 → 모달） ---- */
   projects: [
     {
-      title: "プロジェクトタイトル A",
-      period: "2024.01 - 2024.06",
+      title: "GPUサーバー資源配分ソリューション",
+      period: "2023.05 - 2023.10",
       summary:
-        "プロジェクトの概要を一文で記載します。どのような課題を解決したかを簡潔に。",
-      stack: ["Java", "Spring Boot", "MySQL",],
+        "Kubernetesを使用したGPUサーバー資源配分ソリューション運用保守",
+      stack: ["Java", "Spring Boot", "JUnit", "MySQL", "JPA", "Kubernetes",],
       overview: "プロジェクトの背景・目的・チーム構成などをここに記載します。",
       role: "担当した役割や責任範囲をここに記載します。",
       highlights: [
@@ -108,11 +108,26 @@ const SITE = {
       ],
     },
     {
-      title: "プロジェクトタイトル B",
-      period: "2024.07 - 2025.03",
+      title: "POS／セルフレジソリューション",
+      period: "2024.01 - 2026.01",
+      summary:
+        "MSA環境において4つのサーバを単独で設計・開発・運用まで担当",
+      stack: ["MSA", "Java", "Spring boot", "Spring Security",
+        "MyBatis", "Redis", "Apache Kafka"],
+      overview: "개요",
+      role: "要件定義から基本設計（DBスキーマ・API設計）" +
+        "Java(Spring Boot)・MySQLによる開発、リリース後の運用（障害対応・性能チューニング）まで一貫して対応しました。",
+      highlights: [
+        "取り組んだ課題や工夫した点をここに記載します。",
+        "成果や数値があれば記載します。",
+      ],
+    },
+    {
+      title: "QRコード注文システム",
+      period: "2025.07 - 2026.01",
       summary:
         "プロジェクトの概要を一文で記載します。どのような課題を解決したかを簡潔に。",
-      stack: ["Kotlin", "AWS", "Redis"],
+      stack: ["MSA", "Java", "Spring boot", "Redis", "MyBatis",],
       overview: "プロジェクトの背景・目的・チーム構成などをここに記載します。",
       role: "担当した役割や責任範囲をここに記載します。",
       highlights: [
@@ -121,24 +136,11 @@ const SITE = {
       ],
     },
     {
-      title: "プロジェクトタイトル C",
-      period: "2026.02 - 現在",
+      title: "交通管制レガシーシステムStrutsからSpringへの移行",
+      period: "2026.03 - 現在",
       summary:
         "プロジェクトの概要を一文で記載します。どのような課題を解決したかを簡潔に。",
-      stack: ["Java", "MSA", "Docker"],
-      overview: "プロジェクトの背景・目的・チーム構成などをここに記載します。",
-      role: "担当した役割や責任範囲をここに記載します。",
-      highlights: [
-        "取り組んだ課題や工夫した点をここに記載します。",
-        "成果や数値があれば記載します。",
-      ],
-    },
-    {
-      title: "プロジェクトタイトル C",
-      period: "2026.02 - 現在",
-      summary:
-        "プロジェクトの概要を一文で記載します。どのような課題を解決したかを簡潔に。",
-      stack: ["Java", "MSA", "Docker"],
+      stack: ["Java", "JSP", "Spring Boot", "Strutus", "SQLite",],
       overview: "プロジェクトの背景・目的・チーム構成などをここに記載します。",
       role: "担当した役割や責任範囲をここに記載します。",
       highlights: [
